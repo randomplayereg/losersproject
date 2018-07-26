@@ -1,0 +1,9 @@
+button.btn.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--dark-purple);
+}
+
+button.btn.btn-outline-primary {
+    color: var(--dark-purple);
+    border-color: var(--dark-purple);
+}

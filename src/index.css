@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --main-purple: #9b859b;
+  --dark-purple: #8f728f;
+  --black-purple: #4b4466;
+  --exc-orange: #F57F17;
+  --exc-purple: #4A148C;
+  --req-orange: #F57F17;
+  --req-green: #4CAF501;
+  --req-purple: #6200EA;
+  --own-green:  #4CAF50;
+  --own-red: #E53935;
+  --lime-green:#32cd32;
+}
