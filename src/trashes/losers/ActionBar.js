@@ -24,6 +24,10 @@ export default class ActionBar extends React.Component {
     constructor(props) {
         super(props);
 
+        this.state = {
+            searchKey: ""
+        }
+
         this.toggle = this.toggle.bind(this);
         this.state = {
             isOpen: false
@@ -45,7 +49,7 @@ export default class ActionBar extends React.Component {
 
                         <Nav>
                             <Form inline>
-                                <Input type="search" name="search" id="exampleSearch" />
+                                <Input type="search" name="search" id="exampleSearch" onChange={(e)=>{this.setState({searchKey: e.target.value})}}/>
 
                                 <Button color="primary" outline>{ruben.search_book}</Button>{' '}
                             </Form>

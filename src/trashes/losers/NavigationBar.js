@@ -44,16 +44,16 @@ export default class NavigationBar extends React.Component {
                             <Collapse isOpen={this.state.isOpen} navbar>
                                 <Nav className="m-auto" navbar>
                                     <NavItem>
-                                        <NavLink href="/">{ruben.home}</NavLink>
+                                        <NavLink href="/"><i className={"fa fa-home"}></i> {ruben.home}</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/browse">{ruben.browse}</NavLink>
+                                        <NavLink href="/sharing">{ruben.browse}</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/exchange">{ruben.exchange}</NavLink>
+                                        <NavLink href="/trade">{ruben.exchange}</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/profile">{ruben.setting}</NavLink>
+                                        <NavLink href="/account">{ruben.setting}</NavLink>
                                     </NavItem>
                                 </Nav>
                             </Collapse>

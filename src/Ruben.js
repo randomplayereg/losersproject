@@ -46,6 +46,68 @@ export const ruben = {
 
     author: "Tác giả",
     rating: "Đánh giá",
+    translator: "Dịch giả",
+    publisher: "Nhà xuất bản",
+    detail: "Chi tiết",
+    size: "Kích thước",
+    weight: "Cân nặng",
+    total_pages: "Tổng số trang",
+    publish_date: "Ngày xuất bản",
 
-    setting: "Tài khoản"
+    summary: "Tóm tắt",
+    books_are_available: "cuốn sách đang có thể mượn",
+
+    add_this: "Thêm vào sách của tôi",
+    borrow_this: "Mượn sách",
+    borrow: "Mượn",
+    destruction: "Hủy",
+
+    add_book: "Thêm sách",
+    time_allowed: "Thời gian cho phép",
+    use_for: "Sử dụng để",
+    is_available: "Có sẵn",
+    review_about_this: "Cảm nhận của bạn về cuốn sách này (Không bắt buộc)",
+
+
+    setting: "Tài khoản",
+
+    send_feedback: "Gửi phản hồi",
+
+    //
+    vietnamese: "Tiếng Việt",
+    english: "Tiếng Anh",
+
+    add_book_succ: "Thêm sách thành công",
+    something_wrong: "Có lỗi xảy ra",
+    save: "Lưu",
+
+    //
+    member_sharing: "CÁC THÀNH VIÊN ĐANG CHIA SẺ",
+    owner_address: "Địa chỉ chủ sách",
+    day: "Ngày",
+    week: "Tuần",
+
+    yes: "Có",
+    no: "Không",
+    related_content: "Nội dung liên quan",
+    owner_review: "Cảm nhận của chủ sách",
+    can_i_borrow: "Tôi có thể mượn cuốn sách này không?",
+
+    tag_owner: "Chủ giao dịch",
+    tag_requester: "Giao dịch mượn",
+
+    //
+    response: "Phản hồi",
+    on_going: "Đang diễn ra",
+    finished: "Kết thúc",
+    queue: "Hàng đợi",
+    request: "Yêu cầu",
+    //
+
+    //
+
+    //
+    add_custom_location: "Thêm địa chỉ thủ công",
+
+    not_found: "Không tìm thấy sách"
 };
