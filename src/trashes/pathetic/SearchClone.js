@@ -15,8 +15,8 @@ import {
 import {ruben} from "../../Ruben";
 import StickyBox from "react-sticky-box/dist/react-sticky.esnext";
 import {Link} from "react-router-dom";
-import { parse } from 'qs';
 
+import { parse } from 'qs';
 
 const Result = (props) => {
 
@@ -48,18 +48,17 @@ const Result = (props) => {
 }
 
 
-class Search extends React.Component {
+class SearchClone extends React.Component {
 
     constructor(props) {
         super(props);
+
+        console.log(this.props.location.search);
         this.fetchBooks = () => {
 
             const query = parse(this.props.location.search.substr(1));
 
             const key = query.key;
-            debugger
-
-            // const key = this.props.match.params.key;
             let url = `https://thedung.pythonanywhere.com/api/book/search/original`;
             // TODO: token
             let token = `Token ${localStorage.getItem('token')}`;
@@ -102,9 +101,9 @@ class Search extends React.Component {
                     <Row>
                         <Col md={8} className={"mt-3"}>
                             {this.state && this.state.books &&
-                                <Result
-                                    books={this.state.books}
-                                />
+                            <Result
+                                books={this.state.books}
+                            />
                             }
                         </Col>
                         <Col md={4} className={"sidebox mt-3 bg-light"}>
@@ -132,7 +131,7 @@ class Search extends React.Component {
     }
 }
 
-export default Search;
+export default SearchClone;
 
 
 function prepareData(details) {

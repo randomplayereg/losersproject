@@ -5,14 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ruben.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ruben.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trashes/autism/LogIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/autism/LogIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trashes/losers/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/losers/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trashes/pathetic/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/pathetic/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trashes/pathetic/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/pathetic/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trashes/pathetic/Sharing2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/pathetic/Sharing2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trashes/losers/ActionBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/losers/ActionBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trashes/pathetic/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/pathetic/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/trashes/pathetic/Trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/pathetic/Trade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trashes/pathetic/TradeDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/trashes/pathetic/TradeDetail.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,15 +23,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TradeDetail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/TradeDetail.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="502">
+              <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionBar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trashes/losers/ActionBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#6445#9017#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchClone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/SearchClone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" column="19" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -42,8 +71,8 @@
       <file leaf-file-name="Trade.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Trade.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="433" column="51" selection-start-line="433" selection-start-column="51" selection-end-line="433" selection-end-column="51" />
+            <state relative-caret-position="671">
+              <caret line="352" column="38" selection-start-line="352" selection-start-column="38" selection-end-line="352" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="n#!!block;n#statusToString#0" />
@@ -54,43 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="97" column="66" selection-start-line="97" selection-start-column="66" selection-end-line="97" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Ruben.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ruben.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Book.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Book.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="401" column="52" selection-start-line="401" selection-start-column="52" selection-end-line="401" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="n#Showcase#0" />
-                <element signature="n#Owners#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationBar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trashes/losers/NavigationBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="55" column="63" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="63" />
+            <state relative-caret-position="465">
+              <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -112,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputLogIn.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inputLogIn.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trashes/leftovers/inputLogIn.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -134,9 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MessageBox</find>
-      <find>Owner3</find>
-      <find>submitLocation</find>
       <find>value</find>
       <find>convertLatLng</find>
       <find>onChange</find>
@@ -163,10 +157,12 @@
       <find>Jump</find>
       <find>Reque</find>
       <find>Modal</find>
+      <find>Search</find>
+      <find>length</find>
       <find>owner</find>
+      <find>type</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;tr className={&quot;row&quot;}&gt;</replace>
       <replace>&lt;td className={&quot;col-md-4&quot;}&gt;</replace>
       <replace>&lt;p className={&quot;col-md-12&quot;}&gt;</replace>
       <replace>showModal</replace>
@@ -196,6 +192,7 @@
       <replace>this.props.ownerTrades</replace>
       <replace>trades</replace>
       <replace>16</replace>
+      <replace>SearchClone</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -219,25 +216,26 @@
         <option value="$PROJECT_DIR$/src/trashes/abbadoned/ovPrimBtnOutline.css" />
         <option value="$PROJECT_DIR$/src/trashes/pathetic/BookAdd.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/trashes/losers/ActionBar.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/trashes/leftovers/modal.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/trashes/pathetic/Search.js" />
         <option value="$PROJECT_DIR$/src/trashes/leftovers/trade.css" />
         <option value="$PROJECT_DIR$/src/trashes/leftovers/subcategory.css" />
         <option value="$PROJECT_DIR$/src/trashes/pathetic/Sharing2.js" />
         <option value="$PROJECT_DIR$/src/trashes/pathetic/TradeDetail.js" />
         <option value="$PROJECT_DIR$/src/trashes/losers/filter.css" />
         <option value="$PROJECT_DIR$/src/trashes/leftovers/filter.css" />
-        <option value="$PROJECT_DIR$/src/trashes/pathetic/Trade.js" />
         <option value="$PROJECT_DIR$/src/trashes/pathetic/Home.js" />
         <option value="$PROJECT_DIR$/src/trashes/pathetic/Book.js" />
         <option value="$PROJECT_DIR$/src/trashes/losers/NavigationBar.js" />
         <option value="$PROJECT_DIR$/src/trashes/leftovers/inputLogIn.js" />
-        <option value="$PROJECT_DIR$/src/Ruben.js" />
         <option value="$PROJECT_DIR$/src/trashes/autism/LogIn.js" />
         <option value="$PROJECT_DIR$/src/trashes/leftovers/inputLogIn.css" />
+        <option value="$PROJECT_DIR$/src/trashes/pathetic/Trade.js" />
+        <option value="$PROJECT_DIR$/src/trashes/pathetic/SearchClone.js" />
+        <option value="$PROJECT_DIR$/src/trashes/pathetic/Search.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Ruben.js" />
+        <option value="$PROJECT_DIR$/src/trashes/losers/ActionBar.js" />
       </list>
     </option>
   </component>
@@ -384,12 +382,12 @@
       <workItem from="1532582532807" duration="88101000" />
       <workItem from="1532748445596" duration="599000" />
       <workItem from="1532771501321" duration="237000" />
-      <workItem from="1532773836996" duration="48622000" />
+      <workItem from="1532773836996" duration="54786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137559000" />
+    <option name="totallyTimeSpent" value="143723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,7 +411,7 @@
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32985386" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32985386" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,13 +434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Sharing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="34" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Sharing2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -647,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trashes/losers/ActionBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Sharing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -664,28 +645,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trashes/leftovers/modal.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,19 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Trade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="433" column="51" selection-start-line="433" selection-start-column="51" selection-end-line="433" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="n#!!block;n#statusToString#0" />
-            <element signature="e#1922#3280#0" />
-            <element signature="n#OwnerPanel#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -798,10 +746,10 @@
     <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Account.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ruben.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -815,17 +763,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/src/trashes/leftovers/inputLogIn.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trashes/leftovers/inputLogIn.css">
+    <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Trade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="671">
+          <caret line="352" column="38" selection-start-line="352" selection-start-column="38" selection-end-line="352" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="n#!!block;n#statusToString#0" />
+            <element signature="e#1922#3280#0" />
+            <element signature="n#OwnerPanel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/SearchClone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="19" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trashes/pathetic/Search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ruben.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="186" column="23" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trashes/losers/ActionBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="109" column="82" lean-forward="true" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

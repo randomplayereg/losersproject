@@ -350,7 +350,7 @@ class RequesterPanel extends React.Component {
                                 {'filter-active' : this.state.active === 4},
                                 'filter-group')}
                     >
-                        {ruben.response}
+                        {ruben.request}
                     </Button>
 
                 </ButtonGroup>

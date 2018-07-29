@@ -45,7 +45,7 @@ export const ruben = {
     pls_enter_pin: "Xin nhập mã xác nhận đã được gửi tới",
 
     new_book: "Thêm sách",
-    search_book: "Tìm kiếm sách...",
+    search_book: "Tìm kiếm sách",
 
     author: "Tác giả",
     rating: "Đánh giá",
@@ -184,5 +184,5 @@ export const ruben = {
     // ???
     please_add_location: "Xin hãy thêm địa chỉ vào profile của bạn",
 
-
+    inbox: "Thông báo",
 };

@@ -15,6 +15,7 @@ import BookAdd from "./trashes/pathetic/BookAdd";
 import Trade from "./trashes/pathetic/Trade";
 import TradeDetail from "./trashes/pathetic/TradeDetail";
 import Search from "./trashes/pathetic/Search";
+import SearchClone from "./trashes/pathetic/SearchClone";
 
 class App extends Component {
 
@@ -85,7 +86,8 @@ class App extends Component {
                         <Route path={'/book/:id/add'} component={this.AddBookComponent} exact/>
 
                         <Route path={'/sharing/new'} component={Sharing} exact/>
-                        <Route path={'/search/:key'} component={Search} exact/>
+                        <Route path={'/search'} component={Search} exact/>
+                        {/*<Route path={'/searchclone'} component={SearchClone} exact />*/}
 
                         <Route path={'/trade'} component={Trade} exact/>
                         <Route path={'/trade/:id'} component={this.TradeComponent} exact/>
