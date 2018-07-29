@@ -1,0 +1,9 @@
+.link-item {
+    background-color: #fff;
+    border: solid 1px var(--main-purple);
+    color: var(--main-purple);
+}
+
+.custom-light-grey {
+    background-color: #F8F9FA;
+}

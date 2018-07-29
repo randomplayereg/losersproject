@@ -1,0 +1,10 @@
+.filter-group {
+    border: solid 1px var(--main-purple);
+    color: var(--main-purple)!important;
+    background-color: #fff!important;
+}
+
+.filter-active {
+    color: #fff!important;
+    background-color: var(--main-purple)!important;
+}

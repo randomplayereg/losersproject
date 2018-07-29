@@ -1,8 +1,10 @@
 import React from "react";
 import "../leftovers/login.css";
 
-import {Button, Container, Form, FormGroup, Input, InputGroup, InputGroupAddon, Row} from "reactstrap";
+import {Button, Col, Container, Form, FormGroup, Input, InputGroup, InputGroupAddon, Row} from "reactstrap";
 import {ruben} from "../../Ruben";
+
+import '../leftovers/inputLogIn.css';
 
 class LogIn extends React.Component {
     constructor(props) {
@@ -85,7 +87,7 @@ class LogIn extends React.Component {
                         localStorage.setItem('uid', json.email);
 
                         setTimeout(() => {
-                            window.location.replace('/v2/home');
+                            window.location.replace('/home');
                         }, 2000);
                     }
                 }
@@ -100,26 +102,64 @@ class LogIn extends React.Component {
                         onSubmit={this.handleSubmit}
                     >
                         <div style={{padding: "36px"}}>
-                            <InputGroup>
-                                {/*<InputGroupAddon addonType="prepend">@*/}
-                                {/*</InputGroupAddon>*/}
-                                <span className="input-group-append">
-                                    <button className="btn btn-outline-secondary" type="button" disabled>
-                                        <i className="fa fa-user"></i>
-                                    </button>
-                                </span>
-                                <Input type="email" name="email" id="email" placeholder={ruben.email} onChange={this.handleChange}/>
-                            </InputGroup>
-                            <InputGroup>
-                                <span className="input-group-append">
-                                    <button className="btn btn-outline-secondary" type="button" disabled style={{border: "none", backgroundColor: "#fff"}}>
-                                        <i className="fa fa-key"></i>
-                                    </button>
-                                </span>
-                                <Input type="password" name="password" id="password" placeholder={ruben.password} onChange={this.handleChange} />
+
+                            <h2 style={{color: "var(--main-purple)", textAlign: "center"}}>InfiBook</h2>
+
+                            <InputGroup size="lg" className={"mt-3 mb-3"}>
+                                <InputGroupAddon addonType="prepend" className="add-on-container">
+                                    <i className="fa fa-user add-on-item"></i>
+                                </InputGroupAddon>
+                                <Input type="email" id="email" placeholder="Email" className="add-on-input"  onChange={this.handleChange}/>
                             </InputGroup>
 
-                            <Button type={"submit"} color="primary">primary</Button>{' '}
+                            <InputGroup size="lg" className={"mt-3 mb-3"}>
+                                <InputGroupAddon addonType="prepend" className="add-on-container">
+                                    <i className="fa fa-key add-on-item"></i>
+                                </InputGroupAddon>
+                                <Input type="password" id="password" placeholder="Mật khẩu" className="add-on-input"  onChange={this.handleChange}/>
+                            </InputGroup>
+
+                            <Row>
+                                <Col md={12}>
+                                    <p style={{float: 'right'}}>{ruben.forgot_password}</p>
+                                </Col>
+                            </Row>
+
+
+                            {/*<InputGroup>*/}
+                                {/*/!*<InputGroupAddon addonType="prepend">@*!/*/}
+                                {/*/!*</InputGroupAddon>*!/*/}
+                                {/*<span className="input-group-append">*/}
+                                    {/*<button className="btn btn-outline-secondary" type="button" disabled>*/}
+                                        {/*<i className="fa fa-user"></i>*/}
+                                    {/*</button>*/}
+                                {/*</span>*/}
+                                {/*<Input type="email" name="email" id="email" placeholder={"&#xf007"} onChange={this.handleChange}/>*/}
+                            {/*</InputGroup>*/}
+                            {/*<InputGroup>*/}
+                                {/*<span className="input-group-append">*/}
+                                    {/*<button className="btn btn-outline-secondary" type="button" disabled style={{border: "none", backgroundColor: "#fff"}}>*/}
+                                        {/*<i className="fa fa-key"></i>*/}
+                                    {/*</button>*/}
+                                {/*</span>*/}
+                                {/*<Input type="password" name="password" id="password" placeholder={ruben.password} onChange={this.handleChange} />*/}
+                            {/*</InputGroup>*/}
+
+                            <Row className={"d-flex justify-content-center mt-3"}>
+                                <Button className="login-btn" type={"submit"} color="primary">{ruben.login}</Button>{' '}
+                            </Row>
+
+                            <Row className={"d-flex justify-content-center mt-3"}>
+                                <Button className="fb-btn">{ruben.fb}</Button>
+                            </Row>
+
+                            <Row className={"d-flex justify-content-center mt-3"}>
+                                <Button className="gg-btn">{ruben.fb}</Button>
+                            </Row>
+
+                            <Row className={"d-flex justify-content-center"}>
+                                <span>{ruben.no_account} <b><u>{ruben.signup}</u></b></span>
+                            </Row>
                         </div>
                     </Form>
                 </div>

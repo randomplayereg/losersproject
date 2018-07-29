@@ -16,6 +16,8 @@ import {ruben} from "../../Ruben";
 import StickyBox from "react-sticky-box/dist/react-sticky.esnext";
 import {Link} from "react-router-dom";
 
+import '../leftovers/subcategory.css';
+
 const CategoryGrid = (props) => {
 
     const categories = props.country.categories;
@@ -61,7 +63,7 @@ const SubcategoryNav = (props) => {
                                 (subcategory) => {
                                     rend.push(
                                         <NavItem key={subcategory.code}>
-                                            <Link to={`${subcategory.code}`} className={"nav-link"}>{subcategory.title}</Link>
+                                            <Link to={`${subcategory.code}`} className={"nav-link link-item"}>{subcategory.title}</Link>
                                         </NavItem>
                                     )
                                 }
@@ -74,7 +76,7 @@ const SubcategoryNav = (props) => {
     )
 
     return (
-        <Nav vertical>
+        <Nav vertical className={"mt-3"}>
             {rend}
         </Nav>
     )
@@ -104,10 +106,10 @@ const BookGrid = (props) => {
                                                     <Col md={4}>
                                                         <Link to={`/book/${book.id}`} className={"mt-2 card"} style={{minHeight: "204px", backgroundColor: "var(--main-purple)"}}>
                                                             <img width="100%" src={book.image} alt="Card image cap" className={"p-2"} style={{maxHeight: "300px"}}/>
-                                                            <CardBody style={{padding: "0px"}}>
+                                                            <CardBody>
                                                                 <CardText style={{color: "white"}}>{book.title}</CardText>
-                                                                <CardText style={{color: "white"}}>{book.author}</CardText>
-                                                                <CardText style={{color: "white"}}>{book.rating}</CardText>
+                                                                <CardText style={{color: "white"}}><strong>{ruben.author}:</strong>  {book.author}</CardText>
+                                                                <CardText style={{color: "white"}}><strong>{ruben.rating}:</strong>  {book.rating}</CardText>
                                                             </CardBody>
                                                         </Link>
                                                     </Col>
@@ -181,14 +183,14 @@ class Sharing2 extends Component {
         return (
             <div>
                 <Container className={"mt-3"}>
-                    <Row>
-                        <Col md={12}>
-                            <h1>{this.props.country}{this.props.category}{this.props.subcategory}</h1>
-                        </Col>
-                    </Row>
+                    {/*<Row>*/}
+                        {/*<Col md={12}>*/}
+                            {/*<h1>{this.props.country}{this.props.category}{this.props.subcategory}</h1>*/}
+                        {/*</Col>*/}
+                    {/*</Row>*/}
                     <Row>
                         {this.state && this.state.bundle &&
-                        <Col md={2}>
+                        <Col md={2} className={"custom-light-grey"}>
                             <SubcategoryNav
                                 bundle={this.state.bundle}
                                 countryCode={this.props.country}

@@ -2,6 +2,9 @@ export const ruben = {
     wrong_pin: "Sai mã pin",
     success: "Thành công",
 
+    login: "Đăng nhập",
+    fb: "Đăng nhập với Facebook",
+    gg: "Đăng nhập với Google",
     signup: "Đăng ký",
     empty_real_name: "Tên thật trống",
     empty_email: "Email trống",
@@ -97,6 +100,11 @@ export const ruben = {
     tag_requester: "Giao dịch mượn",
 
     //
+    owner: "Chủ sách",
+    borrower: "Người mượn",
+    book_status: "Trạng thái sách",
+
+    //
     response: "Phản hồi",
     on_going: "Đang diễn ra",
     finished: "Kết thúc",
@@ -109,5 +117,72 @@ export const ruben = {
     //
     add_custom_location: "Thêm địa chỉ thủ công",
 
-    not_found: "Không tìm thấy sách"
+    not_found: "Không tìm thấy sách",
+
+
+    // borrow book
+
+
+    watch_map: "Xem trên bản đồ",
+    write_a_message: "Viết một tin nhắn...",
+    get_address: "Địa điểm nhận",
+    return_address: "Địa điểm trả",
+    start_date: "Ngày bắt đầu",
+    end_date: "Ngày trả",
+
+    city: "Thành phố",
+    district: "Quận",
+    ward: "Phường",
+    street: "Số nhà và tên đường",
+
+    add_by_type: "Thêm địa điểm thủ công",
+    add_current: "Sử dụng địa chỉ hiện tại",
+    add_from_map: "Lựa chọn từ bản đồ",
+
+    use_profile: "Sử dụng địa chỉ cá nhân của tôi",
+    use_default: "Sử dụng địa chỉ mặc định",
+    use_input: "Thêm địa điểm thủ công",
+
+    explain_add_locatioin: "Bạn cần thêm địa chỉ giao dịch: Vào Profile > Sửa profile > Chỉnh sửa địa chỉ trao đổi của tôi",
+
+    accept: "Chấp nhận",
+    decline: "Từ chối",
+    cancel: "Hủy",
+
+
+    change_book_ready: "Thay đổi trạng thái sách sang sẵn sàng lấy",
+    change_book_not_ready: "Thay đổi trạng thái sách sang chưa sẵn sàng lấy",
+
+    me_took_book: "Tôi đã lấy sách",
+    me_return_book: "Tôi muốn trả sách",
+
+    // status description
+    R3: "Chờ phản hồi của chủ sách",
+    R4: "Chủ sách đã đồng ý cho mượn, nhưng sách chưa sẵn sàng để lấy, vui lòng chờ tín hiệu của chủ sách",
+    R15: "Đang chờ sách sẵn sàng để lấy từ chủ sách",
+    R6: "Sách hiện tại đã có thể lấy từ chủ sách",
+    R8: "Bạn đang giữ cuốn sách này",
+    R11: "Đang chờ phản hồi từ chủ sách",
+    R12: "Chủ sách đã đồng ý với yêu cầu trả sách của bạn",
+    R16: "Bạn đã đồng ý với địa điểm trả sách, hãy chuẩn bị trả sách thôi",
+
+    R14: "Giao dịch đã kết thúc",
+    O14: "Giao dịch đã kết thúc",
+
+    O3: "Chờ phản hồi của chủ sách",
+    O4: "Chờ phản hồi từ người mượn",
+    O15: "Mọi thứ đã xong, đang chờ sách của bạn sẵn sàng để lấy",
+    O6: "Sách hiện tại đã có thể lấy từ chủ sách",
+    O8: "Người mượn đã lấy sách",
+    O11: "Người mượn muốn trả sách cho bạn",
+    O12: "Chờ phản hồi từ người mượn",
+    O16: "Đang chờ phản hồi trả sách",
+
+    R5: "Giao dịch bị từ chối hoặc hủy bỏ",
+
+
+    // ???
+    please_add_location: "Xin hãy thêm địa chỉ vào profile của bạn",
+
+
 };

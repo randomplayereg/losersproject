@@ -1,0 +1,43 @@
+.add-on-container {
+    background-color:  #fff;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: var(--main-purple);
+    min-width: 46px;
+}
+
+.add-on-item {
+    font-size: 26px;
+    padding: 10px;
+    color: deepskyblue;
+}
+
+.add-on-input {
+    border-left: none!important;
+    padding-left: 0px!important;
+    border-color: var(--main-purple)!important;
+}
+
+.login-btn {
+    border: none!important;
+    min-width: 140px;
+    min-height: 140px;
+    border-radius: 70px!important;
+    background-color: var(--main-purple)!important;
+}
+
+.fb-btn {
+    background-color: #4267B2!important;
+    border: none!important;
+    color: #fff;
+    width: 100%;
+}
+
+.gg-btn {
+    background-color: #EA4335!important;
+    border: none!important;
+    color: #fff;
+    width: 100%;
+}

@@ -1,0 +1,86 @@
+.trade-title {
+    background-color: var(--black-purple);
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 5px #ccc;
+    height: 39px;
+}
+
+.trade-info {
+    color: #fff;
+    background-color: var(--main-purple);
+    font-size: 18px;
+}
+
+.d-btn {
+    width: 50%;
+    border: solid 1px transparent!important;
+    box-shadow: 2px 2px #ccc!important;
+    margin-bottom: 2px!important;
+}
+
+.orange-btn {
+    background-color: var(--exc-orange)!important;
+    color: #fff!important;
+}
+
+.orange-btn:hover {
+    background-color: #fff!important;
+    color: var(--exc-orange)!important;
+}
+
+.green-btn {
+    background-color: var(--lime-green)!important;
+    color: #fff!important;
+}
+
+.green-btn:hover {
+    background-color: #fff!important;
+    color: var(--lime-green)!important;
+}
+
+
+.red-btn {
+    background-color: var(--own-red)!important;
+    color: #fff!important;
+}
+
+.red-btn:hover {
+    background-color: #fff!important;
+    color: var(--own-red)!important;
+}
+
+.purple-btn {
+    background-color: var( --req-purple)!important;
+    color: #fff!important;
+}
+
+.purple-btn:hover {
+    background-color: #fff!important;
+    color: var( --req-purple)!important;
+}
+
+
+
+
+.on-going {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+
+
+
+
+.plus-btn {
+    border-radius: 20px!important;
+}
+
+.plus-span {
+    font-size: 20px;
+}
+
+.gui-btn {
+    background-color: transparent!important;
+    color: var(--own-green)!important;
+    border: none!important;
+}

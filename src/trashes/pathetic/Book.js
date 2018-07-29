@@ -158,7 +158,6 @@ class Showcase extends React.Component {
 
         return (
             <div>
-                <h1>Showcase</h1>
                 <Card style={{color: "#fff", backgroundColor: "var(--main-purple)"}}>
                     <CardBody>
                         <Row>
@@ -400,6 +399,7 @@ class RequestModal extends React.Component {
             .then((json => {
                 if (json.id !== null) {
                     alert(ruben.success);
+                    window.location.href = "/trade";
                 }
                 console.log(json);
             }));
@@ -430,15 +430,15 @@ class RequestModal extends React.Component {
                             </Row>
 
 
-                            <Row>
-                                <FormGroup>
+                            <Row className={"mt-3"}>
+                                <FormGroup style={{width: "100%"}}>
                                     {/*<Label for="exampleText">{ruben.review_about_this}</Label>*/}
                                     <Input type="textarea" name="text" id="message" value={this.state.message} onChange={this.onChange}/>
                                 </FormGroup>
                             </Row>
 
                             <Row>
-                                <Button color="primary" onClick={this.sendRequest}>request</Button>{' '}
+                                <Button style={{float: 'right'}} color="primary" onClick={this.sendRequest}>{ruben.request}</Button>{' '}
                             </Row>
                         </Col>
 

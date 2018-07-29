@@ -105,11 +105,11 @@ class Home extends React.Component {
                             <Col md={12}>
                                 <Jumbotron>
                                     {/*<h1 className="display-3">Hello, world!</h1>*/}
-                                    <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    <p className="lead">Aww yeah, xin chào!</p>
                                     {/*<hr className="my-2" />*/}
-                                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                                    <p>InfiBook là gì? InfiBook là dự án cộng đồng, phi lợi nhuận nhằm tạo ra một nền tảng nơi mọi người có thể chia sẻ và kết nối với nhau bằng cách tận dụng nguồn tài nguyên sách sẳn có, tránh lãng phí qua đó xây dựng thói quen đọc và chia sẻ sách. Hãy mượn và được tặng sách từ hơn 123 thành viên với hơn 345 quyển sách đang được chia sẻ..</p>
                                     <p className="lead">
-                                        <Button color="primary">Learn More</Button>
+                                        <Button color="primary">Tìm hiểu thêm</Button>
                                     </p>
                                 </Jumbotron>
                             </Col>

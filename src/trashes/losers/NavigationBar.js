@@ -47,13 +47,13 @@ export default class NavigationBar extends React.Component {
                                         <NavLink href="/"><i className={"fa fa-home"}></i> {ruben.home}</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/sharing">{ruben.browse}</NavLink>
+                                        <NavLink href="/sharing"><i className={"fa fa-th-large"}></i> {ruben.browse}</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/trade">{ruben.exchange}</NavLink>
+                                        <NavLink href="/trade"><i className={"fa fa-random"}></i> {ruben.exchange}</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink href="/account">{ruben.setting}</NavLink>
+                                        <NavLink href="/account"><i className={"fa fa-user"}></i> {ruben.setting}</NavLink>
                                     </NavItem>
                                 </Nav>
                             </Collapse>
